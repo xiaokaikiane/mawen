@@ -147,11 +147,11 @@ public class pinyinUtil {
         return set.toArray(new String[set.size()]);
     }
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(get("中华人民共和国")));
-        System.out.println(Arrays.toString(get("中华1人民b共和国")));
-        System.out.println(Arrays.toString(
-                compose(get("中华人民共和国",true))));
-        System.out.println(Arrays.toString(
-                compose(get("中华人民共和国",false))));
+//        System.out.println(Arrays.toString(get("中华人民共和国")));
+//        System.out.println(Arrays.toString(get("中华1人民b共和国")));
+//        System.out.println(Arrays.toString(
+//                compose(get("中华人民共和国",true))));
+//        System.out.println(Arrays.toString(
+//                compose(get("中华人民共和国",false))));
     }
 }

@@ -62,6 +62,7 @@ public class FileScanner {
                     }
                 }finally {
                     int r = count.decrementAndGet();//计数器减操作
+                    System.out.println("当前任务数:"+count.get());
                     if (r == 0) {
                         //第一种
                      //   synchronized (lock) {

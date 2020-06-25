@@ -146,25 +146,25 @@ public class FileSave implements ScanCallback {
 //        FileSave fileSave=new FileSave();
 //        fileSave.save(file);
 //        fileSave.query(file.getParentFile());
-        List<FileMeta> locals=new ArrayList<>();
-        locals.add(new FileMeta("新建文件夹","D:\\tmp",
-                0,true,new Date()));
-        locals.add(new FileMeta("中华人民共和国2","D:\\tmp",
-                0,true,new Date()));
-        locals.add(new FileMeta("音乐.txt","D:\\tmp\\中华人民共和国2",
-                0,true,new Date()));
-        List<FileMeta> metas=new ArrayList<>();
-        metas.add(new FileMeta("新建文件夹","D:\\tmp",
-                0,true,new Date()));
-        metas.add(new FileMeta("中华人民共和国2 - 副本","D:\\tmp",
-                0,true,new Date()));
-        metas.add(new FileMeta("音乐.txt","D:\\tmp\\中华人民共和国2 - 副本",
-                0,true,new Date()));
-        for(FileMeta meta:locals){
-          if(!metas.contains(meta)){
-              System.out.println(meta);
-          }
-        }
+//        List<FileMeta> locals=new ArrayList<>();
+//        locals.add(new FileMeta("新建文件夹","D:\\tmp",
+//                0,true,new Date()));
+//        locals.add(new FileMeta("中华人民共和国2","D:\\tmp",
+//                0,true,new Date()));
+//        locals.add(new FileMeta("音乐.txt","D:\\tmp\\中华人民共和国2",
+//                0,true,new Date()));
+//        List<FileMeta> metas=new ArrayList<>();
+//        metas.add(new FileMeta("新建文件夹","D:\\tmp",
+//                0,true,new Date()));
+//        metas.add(new FileMeta("中华人民共和国2 - 副本","D:\\tmp",
+//                0,true,new Date()));
+//        metas.add(new FileMeta("音乐.txt","D:\\tmp\\中华人民共和国2 - 副本",
+//                0,true,new Date()));
+//        for(FileMeta meta:locals){
+//          if(!metas.contains(meta)){
+//              System.out.println(meta);
+//          }
+//        }
     }
 }
 
